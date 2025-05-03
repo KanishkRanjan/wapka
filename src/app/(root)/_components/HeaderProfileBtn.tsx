@@ -18,7 +18,6 @@ function HeaderProfileBtn() {
 
       <SignedOut>
         <LoginButton />
-        <SignInButton />
       </SignedOut>
     </>
   );
