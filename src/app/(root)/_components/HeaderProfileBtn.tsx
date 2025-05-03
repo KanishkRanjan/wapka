@@ -1,5 +1,5 @@
 "use client";
-// import LoginButton from "@/components/LoginButton";
+import LoginButton from "@/components/LoginButton";
 import { SignInButton, SignedOut, UserButton } from "@clerk/nextjs";
 import { User } from "lucide-react";
 
@@ -17,10 +17,8 @@ function HeaderProfileBtn() {
       </UserButton>
 
       <SignedOut>
-        {/* <LoginButton /> */}
-        
+        <LoginButton />
         <SignInButton />
-
       </SignedOut>
     </>
   );
